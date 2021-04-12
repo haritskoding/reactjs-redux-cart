@@ -1,0 +1,235 @@
+.container {
+  width: 80vw;
+  height: auto;
+  margin: 10px auto;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.mt-100 {
+  margin-top: 80px;
+}
+
+.product {
+  padding: 25px;
+  width: 100%;
+  margin-bottom: 21px;
+  overflow: hidden;
+}
+
+.product__img {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
+
+.product__img img {
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s linear;
+  animation: imageTransition 0.5s lnear;
+}
+
+.product__img img:hover {
+  transform: scale(1.2);
+}
+
+.product__name {
+  margin: 10px auto;
+  text-transform: capitalize;
+  color: #707070;
+}
+
+.product__discount_price {
+  text-align: right;
+  font-size: 16px;
+}
+
+.product__price .discount {
+  color: rgb(255, 92, 132);
+  background: rgb(255, 234, 239);
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.actual__price {
+  text-decoration: line-through;
+  font-size: 16px;
+  color: rgb(165, 166, 169);
+}
+
+.icon__stars {
+  color: rgb(255, 194, 0);
+}
+
+.col-baru {
+  margin-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.stars {
+  font-size: 15px;
+}
+.col-baru .terjual {
+  text-align: right;
+  font-size: 15px;
+}
+
+.col-baru .nama__toko {
+  text-align: right;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.nama__toko Link {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .row {
+    justify-content: center;
+    font-size: 15px;
+  }
+
+  .col-9 {
+    width: 68.3%;
+    font-size: 15px;
+  }
+
+  .col-3 {
+    width: 30.3%;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 950px) {
+  .mtb-30 {
+    margin-top: 22px !important;
+    margin-bottom: 12px !important;
+  }
+  .container {
+    width: 100%;
+  }
+
+  .col-2 {
+    width: 100% !important;
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+  .cart__incDec {
+    display: flex;
+    justify-content: center;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+  .col-9 {
+    width: 100%;
+  }
+
+  .summary-col {
+    margin-top: 30px;
+    width: 100% !important;
+  }
+
+  .cart__heading {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    width: 80%;
+    padding: 0 auto;
+    font-size: 21px;
+  }
+
+  .col-2 {
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .col-3 {
+    width: 100% !important;
+  }
+
+  .col-9 {
+    width: 100%;
+  }
+
+  .col-6 {
+    width: 100% !important;
+  }
+
+  .details__image {
+    padding-right: 0px;
+  }
+
+  .cart__heading {
+    display: none;
+  }
+
+  .summary-col {
+    width: 100% !important;
+  }
+
+  .cart__incDec {
+    display: flex;
+    justify-content: center;
+  }
+
+  cart h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    width: 83%;
+    padding: 0 5px;
+    font-size: 17px;
+  }
+
+  .mtb-30 {
+    margin-top: 12px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .col-2 {
+    width: 100%;
+    text-align: center;
+  }
+  .col-3 {
+    width: 50%;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  .details__image {
+    padding-right: 0px;
+  }
+}

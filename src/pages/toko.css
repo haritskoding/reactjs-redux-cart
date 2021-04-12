@@ -1,0 +1,11 @@
+.rating__toko {
+  margin-top: 25px;
+  font-size: 18px;
+}
+
+.lokasi {
+  display: "flex";
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 12px;
+}

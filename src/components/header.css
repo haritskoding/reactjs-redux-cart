@@ -1,0 +1,7 @@
+.header {
+  background: url("../images/model2.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vw auto;
+}
